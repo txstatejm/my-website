@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    display: block;
+}
+
+p {
+    margin-top: -20px;
+}
+
+#james {
+    border-radius: 50%;
+}
+
+#nav-bar {
+    display: inline-flex;
+    gap: 5px;
+}
+
+.button {
+    color: #ffffff;
+    background-color: black;
+    font-size: 14px;
+    border-radius: 100px;
+    cursor: pointer
+}
+
+.button:hover {
+    color: black;
+    background-color: #ffffff;
+}
+
+#cert {
+    height: 25%;
+    width: 25%;
+}
+
+#cert:hover {
+        color: #424242; 
+      -webkit-transition: all .3s ease-in;
+      -moz-transition: all .3s ease-in;
+      -ms-transition: all .3s ease-in;
+      -o-transition: all .3s ease-in;
+      transition: all .3s ease-in;
+      opacity: 1;
+      transform: scale(2);
+      -ms-transform: scale(2); /* IE 9 */
+      -webkit-transform: scale(2); /* Safari and Chrome */
+    
+    }
